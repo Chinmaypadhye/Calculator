@@ -1,0 +1,64 @@
+body{
+    height: 100%;
+    background-repeat: no repeat;
+    background-image: linear-gradient(to bottom right,#cc33ff 15%,#ff9999 70%);
+    background-attachment: fixed;
+    margin: 0;
+    
+    }
+.fst{
+    background-color:#F5F5F5	;
+    
+
+    }
+.c2{
+    background-color:#F8F8F8	;	
+   }
+table{
+       border: 1px solid black;
+       width: 260px;
+       border: 0;
+       /* table-layout: fixed;*/
+       vertical-align: bottom;
+       height: 380px;
+       margin: auto;
+       margin-top: 100px;
+       border-collapse: collapse;
+      }
+.equalto{
+         width: 137px;
+         background-color: #ff33cc;
+        }
+#display{
+         width: 275px;
+         background-color:rgb(44, 41, 41);
+         font-size: 50px;
+         text-align: right;
+         float: left;
+         color: white;
+         height: 100px;
+         margin-top: 0px;
+         position: relative
+        }
+    input.op{
+             background-color: #cc33ff;
+             color: white;
+            }
+    
+input {
+        outline: 0;
+        position: relative;
+        left: 0;
+        top: 0;
+        border: 0;
+        color: #495069;
+        background-color: #fff;
+         border-radius: 0px;
+        width: 67px;
+        height: 72px;
+        float: left;
+        margin: 0px;
+        font-size: 15px;
+        margin-bottom: 0px;
+      }
+     

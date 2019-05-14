@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="./../css/cal.css" type="text/css" >
+        <script  type="text/javascript" src="./../javaS/cal1.js"></script>
+    </head>
+       
+    
+    <body>
+        
+        <form name="calculator">
+        <table>
+            <tr >
+                 <td colspan="4"> <input type="text" name="display"  id="display" disabled></td>    
+            </tr>
+            <tr>
+                <td>
+                     <input class="fst"  type="button" name="percentage" value="%" onclick="myfunction('%')">
+                </td>    
+                <td>
+                     <input   class="c2" type="button" name="." value="." onclick="myfunction('.')">
+                </td>      
+                <td>
+                    <input  type="button" name="C" value="C" onclick="myfunction1()">
+                </td>     
+                <td>
+                    <input  class="op" type="button" name="divide" value="/" onclick="myfunction('/')">
+                </td>                                                                                     
+            </tr>
+            
+            <tr>
+                <td>
+                    <input class="fst"  type="button" name="seven" value="7" onclick="myfunction('7')">
+                </td>
+                <td>
+                    <input type="button" name="eight" class="c2" value="8" onclick="myfunction('8')">
+                </td>
+                <td>
+                 <input type="button" name="nine" value="9" onclick="myfunction('9')">
+                </td>
+                <td>
+                        <input type="button" name="multiply"  class="op" value="x" onclick="myfunction('*')">
+                </td>
+            </tr>    
+             <tr>
+                <td>
+                     <input class="fst"  type="button" name="four" value="4" onclick="myfunction('4')">
+                </td>
+                <td>
+                     <input  class="c2" type="button" name="five" value="5" onclick="myfunction('5')">
+                </td>
+                <td>
+                    <input type="button" name="six" value="6" onclick="myfunction('6')">
+                </td>
+                <td>
+                     <input type="button" class="op" name="minus" value=" -" onclick="myfunction('-')">
+                 </td>
+                                                        
+             </tr>
+             <tr>
+                <td>
+                    <input class="fst"   type="button" name="one" value="1" onclick="myfunction('1')">
+                </td>
+                <td>
+                     <input  class="c2" type="button" name="two" value="2" onclick="myfunction('2')">
+                </td>
+                <td>
+                    <input type="button" name="three" value="3" onclick="myfunction('3')">
+                </td>
+                <td>
+                    <input class="op" type="button" name="plus" value="+" onclick="myfunction('+')">
+                </td>
+                                                            
+             </tr>
+             <tr>
+                <td>
+                     <input class="fst"   type="button" name="clear1" value="0" onclick="myfunction1()">
+                </td>
+                <td>
+                     <input class="c2" type="button" name="coma" value="," onclick="myfunction(',')">
+                 </td>
+               
+                <td colspan="2">
+                     <input class="equalto" type="button" name="equalto" value="=" onclick="equal()">
+                 </td>
+                                                            
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
